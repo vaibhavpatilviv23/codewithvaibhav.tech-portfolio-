@@ -9,6 +9,7 @@ p {
     line-height: 25px;
 }
 
+/*
 @media (min-width: 320px) and (max-width: 480px) {
     .profilepicture {
         height: 300px;
@@ -43,3 +44,4 @@ p {
         width: 300px;
     }
 }
+*/
