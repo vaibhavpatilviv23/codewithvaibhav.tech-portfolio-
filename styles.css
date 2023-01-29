@@ -9,6 +9,10 @@ p {
     line-height: 25px;
 }
 
+.links:hover {
+    color: rgb(184, 120, 72)
+}
+
 /*
 @media (min-width: 320px) and (max-width: 480px) {
     .profilepicture {
