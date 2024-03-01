@@ -49,3 +49,34 @@ p {
     }
 }
 */
+
+.update {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 10px black;
+    border: solid;
+    text-align: center;
+    background-color: burlywood;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#coding {
+    max-height: 100px;
+}
+
+body {
+    background-color: wheat;
+}
