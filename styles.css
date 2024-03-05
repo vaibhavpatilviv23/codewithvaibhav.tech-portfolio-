@@ -77,6 +77,7 @@ p {
     height: 100px;
 }
 
-body {
+.body {
     background-color: wheat;
 }
+
