@@ -12,10 +12,11 @@
     <link rel="icon" href="Assets/Media/Logo for portfolio website.png" type="image/x-icon">
 </head>
 
-<body data-bs-theme="dark">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black px-3" id="nav">
+<body>
+    <nav class="navbar navbar-expand-lg  px-3" id="nav" style="background-color: #6f42c1
+    ;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Vaibhav Patil</a>
+            <a class="navbar-brand text-light" href="index.html">Vaibhav Patil</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -24,13 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutme.html">About Me</a>
+                        <a class="nav-link text-light" href="aboutme.html">About Me</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             More Info<Menu:t></Menu:t>
                         </a>
@@ -42,7 +43,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Online Store<Menu:t></Menu:t>
                         </a>
@@ -55,7 +56,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="links.html">Contact Info</a>
+                        <a class="nav-link text-light" aria-current="page" href="links.html">Contact Info</a>
                     </li>
                 </ul>
 
@@ -63,23 +64,24 @@
         </div>
     </nav>
 
-    <section class="container-fluid px-2 py-2 bg-gradient">
+    <section class="container-fluid px-2 py-2">
+        <div class="col">
+            <div class="text-center">
+                <div class="card h-100 mx-auto border border-black text-light" style="width: 18rem;"
+                    >
+                    <img src="Assets/Media/Resume thumbnail.png" class="card-img-top" alt="...">
+                    <div class="card-body" style="background-color: #685ce9;">
+                        <h5 class="card-title">Resume</h5>
 
-        <div class="text-center">
-            <div class="card mx-auto bg-black border border-white" style="width: 18rem;">
-                <img src="Assets/Media/Resume thumbnail.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Resume</h5>
-
-                    <hr>
-                    <div class="text-center mt-2 mb-2">
-                        <button class="text-center px-3 btn btn-secondary border border-white" type="button"><a
-                                href="Assets/Resume's/Resume V. - 1.1.pdf" target="_blank">Download</a></button>
+                        <hr>
+                        <div class="text-center mt-2 mb-2">
+                            <button class="text-center px-3 btn  border border-white" style="background-color: #c4c1e0;"type="button"><a
+                                    href="Assets/Resume's/Resume V. - 1.1.pdf" target="_blank">Download</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!--
         <h5 class="text-center">Resume</h5>
 
@@ -96,7 +98,8 @@
     -->
     </section>
 
-    <footer class="bg-dark text-light bg-black px-2 py-3">
+    <footer class="text-light px-2 py-3" style="background-color: #6f42c1
+    ;">
         <h6><a href="aboutme.html" class="links">About Me</a></h6>
         <h6><a href="links.html" class="links">Contact Info</a></h6>
         <h6><a href="#nav" class="links">Back to top</a></h6>
