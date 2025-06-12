@@ -12,9 +12,12 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="Assets/Media/Navbar icon logo.jpg" type="image/x-icon">
+    <!--Boostrap SVG icon CDN link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg px-3 fixed-top" id="nav" style="background-color: #6f42c1;">
         <div class="container-fluid">
             <a class="navbar-brand text-light" href="index.html">Vaibhav Patil</a>
@@ -69,10 +72,15 @@
         </div>
     </nav>
 
+    <!--Contact info section-->
     <section id="top" class="container-fluid px-3 py-3" style="background-color: #cfcedb;">
 
-        <h5 class="text-center mb-5">Social media & other links</h5>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <h5 class="text-center mb-2">Contact Info</h5>
+
+        <!--Old contact detail system being discountinued from 12/6/25-->
+        <!--
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100 border-1 text-light border border-black" style="background-color: #685ce9;">
 
@@ -113,6 +121,7 @@
 
                 </div>
             </div>
+
             <div class="col">
                 <div class="card h-100 border-1 text-light border border-black" style="background-color: #685ce9;">
 
@@ -129,7 +138,54 @@
                 </div>
             </div>
 
+           
+
         </div>
+
+        -->
+        
+        <!--New single card for all the details in one, added on 12/6/25-->
+            <div class="col">
+                <div class="card h-100 border-1 text-light border border-black mx-auto" style="background-color: #685ce9; width: 20rem;">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Contact Details</h3>
+                            <hr>
+                            <h5 class="card-text">Name: Vaibhav Patil</h5>
+                            <h5 class="card-text">Email: vaibhavpatilviv@gmail.com</h5>
+                            <h5 class="card-text">Location: Mumbai, Mahashtra, Mumbai</h5>
+                            <!--Buttons for social media links-->
+                            <div class="text-center mt-3">
+                                <!--Twitter icon-->
+                                <button class="btn border border-2 mx-2 rounded-circle">
+                                    <a href="https://x.com/VaibhavVishnuP2" target="_blank">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </button>
+
+                                <!--Github icon-->
+                                <button class="btn border border-2 mx-2 rounded-circle">
+                                    <a href="https://github.com/vaibhavpatilviv23" target="_blank">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </button>
+
+                                <!--LinkedIn icon-->
+                                <button class="btn border border-2 mx-2 rounded-circle">
+                                    <a href="https://www.linkedin.com/in/codewithvaibhavpatil/" target="_blank">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </button>
+
+                                <!--Mail icon-->
+                                <button class="btn border border-2 mx-2 rounded-circle">
+                                    <a href="mailto:vaibhavpatilviv@gmail.com" target="_blank">
+                                        <i class="bi bi-envelope-at"></i>
+                                    </a>
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
 
     </section>
 
