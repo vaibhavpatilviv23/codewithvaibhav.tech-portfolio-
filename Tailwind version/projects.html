@@ -59,7 +59,7 @@
         <!--Columns for responsiveness-->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
             <!--Cards-->
-            <div class="text-center bg-blue-200 p-3 space-y-3 border-2 rounded-md min-w-90 max-w-90 sm:min-w-50">
+            <div class="text-center bg-blue-200 p-3 space-y-3 border-2 rounded-md min-w-90 max-w-90 sm:min-w-50 h-full">
                 <!--Project title-->
                 <h3 class="font-bold">Mahalaxmi Enterprises</h3>
                 <hr>
@@ -67,9 +67,9 @@
                 <p>Mahalaxmi Enterprises is an electronics product wholesaler based in Mumbai. This project involves
                     designing a comprehensive website to showcase their entire product catalog in one place,
                     streamlining the browsing and ordering process for customers.</p>
-                <hr>
+                <hr class="mt-auto flex">
                 <!--Buttons-->
-                <div>
+                <div class="space-x-4">
                     <button class="p-2 border-2 border-black rounded-md bg-purple-500 hover:bg-purple-400 text-white"><a
                             href="#">Visit
                             website</a></button>
@@ -79,7 +79,8 @@
                 </div>
             </div>
 
-            <div class="text-center bg-blue-200 p-3 space-y-3 border-2 rounded-md min-w-90 max-w-90 sm:min-w-50">
+            <div
+                class="text-center bg-blue-200 p-3 space-y-3 border-2 rounded-md min-w-90 max-w-90 sm:min-w-50 min-h-120 max-h-120">
                 <!--Project title-->
                 <h3 class="font-bold">Colored markers using CSS</h3>
                 <hr>
@@ -88,9 +89,9 @@
                     learning journey with FreeCodeCamp, this project showcases how to create visually distinct markers
                     using only HTML and CSS. It emphasizes design precision, layering effects, and color harmony—perfect
                     for understanding how styling can shape user experience.</p>
-                <hr>
+                <hr class="mt-auto flex">
                 <!--Buttons-->
-                <div>
+                <div class="space-x-4">
                     <button class="p-2 border-2 border-black rounded-md bg-purple-500 hover:bg-purple-400 text-white"><a
                             href="#">Visit
                             website</a></button>
@@ -100,7 +101,8 @@
                 </div>
             </div>
 
-            <div class="text-center bg-blue-200 p-3 space-y-3 border-2 rounded-md min-w-90 max-w-90 sm:min-w-50">
+            <div
+                class="text-center bg-blue-200 p-3 space-y-3 border-2 rounded-md min-w-90 max-w-90 sm:min-w-50 min-h-120 max-h-120">
                 <!--Project title-->
                 <h3 class="font-bold">Frontend Bootcamp</h3>
                 <hr>
@@ -114,7 +116,7 @@
                 </p>
                 <hr>
                 <!--Buttons-->
-                <div>
+                <div class="space-x-4 mt-auto flex">
                     <button class="p-2 border-2 border-black rounded-md bg-purple-500 hover:bg-purple-400 text-white"><a
                             href="#">Visit
                             website</a></button>
@@ -123,6 +125,23 @@
                             Github</a></button>
                 </div>
             </div>
+
+            <!--This card is from co-pilot suggetion-->
+            <div class="card bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between h-full">
+                <h2 class="text-xl font-bold">Frontend Bootcamp</h2>
+                <p class="text-gray-600">This project was developed as part of my Bootstrap studies, following Traversy
+                    Media's tutorial on
+                    YouTube. Through this hands-on learning experience, I strengthened my understanding of Bootstrap's
+                    grid system, components, and responsive design principles. Completing this project significantly
+                    enhanced my ability to create sleek, modern web pages using Bootstrap v5.0, paving the way for more
+                    advanced web development work
+                </p>
+                <div class="mt-auto flex gap-4"> <!-- `mt-auto` pushes buttons to the bottom -->
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Visit website</button>
+                    <button class="bg-gray-500 text-white px-4 py-2 rounded">View on GitHub</button>
+                </div>
+            </div>
+
         </div>
     </section>
 
