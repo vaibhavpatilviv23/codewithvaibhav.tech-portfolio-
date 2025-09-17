@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Patil | Front-End Web Developer Portfolio</title>
+    <meta name="description"
+        content="I'm Vaibhav, a front-end web developer passionate about crafting visually engaging websites using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS. Explore my portfolio to see my work in action.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/Media/Navbar icon logo.jpg" type="image/x-icon">
+
+    <!--Open Graph Image code-->
+    <meta property="og:title" content="Vaibhav's Portfolio" />
+    <meta property="og:description" content="Explore my front-end projects, skills, and creative web experiments." />
+    <meta property="og:image" content="https://codewithvaibhav.tech/Assets/Media/ProfilePic.jpg" />
+    <meta property="og:url" content="https://codewithvaibhav.tech/" />
+    <meta property="og:type" content="website" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg px-3 fixed-top" id="nav" style="background-color: #6f42c1;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html">Vaibhav Patil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More Info<Menu:t></Menu:t>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="projects.html">Projects</a></li>
+                            <li><a class="dropdown-item " href="resume.html">Resume</a></li>
+                            <li><a class="dropdown-item " href="career.html">Career Details</a></li>
+                        </ul>
+                    </li>
+
+                    <!--
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Online Store<Menu:t></Menu:t>
+            </a>
+            <ul class="dropdown-menu" >
+              <li><a class="dropdown-item" href="photos.html">Photos</a></li>
+            </ul>
+          </li>
+        -->
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Contact Info</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="https://mobilemattersblog.blogspot.com/"
+                            target="_blank">Blog</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--About Me Section-->
+    <section id="top" class="py-4 px-4 container-fluid" style="background-color: #cfcedb;">
+        <!--Columns for responsiveness-->
+        <div class="row justify-content-center g-5">
+            <div class="col-sm-6 col-md-5 col-lg-5">
+                <img src="Assets/Media/ProfilePic.jpg" alt="Profile Photo"
+                    class="img-fluid border border-3 border-dark rounded-3 mx-5"
+                    style="height: 17rem; width: 17rem; margin: auto;">
+            </div>
+
+            <div class="col-sm-6 col-md-5 col-lg-5">
+                <p>I'm <strong>Vaibhav Patil</strong>, a self-taught front-end web developer with a deep passion for
+                    technology and digital creativity. My journey into web development began in 2021, fueled by a
+                    curiosity for how design and functionality
+                    come together to create engaging user experiences. </p>
+
+                <p>With a strong foundation in <strong>HTML, CSS, Bootstrap, JavaScript, and Tailwind CSS</strong>, I
+                    specialize in crafting responsive and visually appealing websites. I take pride in ensuring
+                    structured documentation, clear communication,
+                    and an attention to detail that makes my projects stand out.</p>
+
+                <p>Beyond coding, I also blog about the latest tech launches, covering smartphones, laptops,
+                    accessories, and other gadgets. Through detailed summaries and product insights, I aim to keep tech
+                    enthusiasts informed about the latest innovations
+                    in the industry.</p>
+
+                <p>Feel free to browse through my projects and connect with me—let's build and explore the world of
+                    technology together!
+                </p>
+
+
+                <p>Learn more about me and my journey by clicking <a href="aboutme.html" style="color: blue;">here</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Projects section-->
+    <section class="py-2 px-3 container-fluid py-3" style="background-color: #cfcedb;">
+        <h5 class="text-center mb-4">Recent Projects</h5>
+
+        <!--Columns-->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+            <div class="col">
+                <div class="card h-100 border border-black text-light" style="background-color: #685ce9;">
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center"> Mahalaxmi Enterprises</h5>
+
+                        <hr>
+                        <p class="card-text">
+                        <p>Mahalaxmi Enterprises is an electronics product wholesaler based in Mumbai. This project
+                            involves designing a comprehensive website to showcase their entire product catalog in one
+                            place, streamlining the browsing and ordering
+                            process for customers.
+                        </p>
+                        <br>
+                        <br>
+                        <hr>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-secondary border border-white mb-2 mx-2"><a
+                                    href="https://vaibhavpatilviv23.github.io/Mahalaxmi-Enterprises/"
+                                    target="_blank">Visit
+                                    website</a></button>
+
+                            <button class="btn btn-secondary border border-white mb-2 mx-2" type="button"><a
+                                    target="_blank"
+                                    href="https://github.com/vaibhavpatilviv23/Mahalaxmi-Enterprises">View on
+                                    GitHub</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 text-light border border-black" style="background-color: #685ce9;">
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Colored markers using CSS</h5>
+
+                        <hr>
+                        <p class="card-text">
+                        <p>Colored Markers is a simple yet effective demonstration of CSS styling techniques. Built
+                            during my learning journey with FreeCodeCamp, this project showcases how to create visually
+                            distinct markers using only HTML and CSS.
+                            It emphasizes design precision, layering effects, and color harmony—perfect for
+                            understanding how styling can shape user experience. </p>
+                        <br>
+                        <br>
+
+                        <hr>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-secondary border border-white mb-2 mx-2"><a
+                                    href="https://vaibhavpatilviv23.github.io/Set-Of-Colored-Markers-by-Using-CSS/"
+                                    target="_blank">Visit
+                                    website</a></button>
+
+                            <button class="btn btn-secondary border border-white mb-2 mx-2" type="button"><a
+                                    target="_blank"
+                                    href="https://github.com/vaibhavpatilviv23/Set-Of-Colored-Markers-by-Using-CSS">View
+                                    on
+                                    GitHub</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 text-light border border-black" style="background-color: #685ce9;">
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Frontend Bootcamp</h5>
+                        <hr>
+                        <p class="card-text">
+                        <p>This project was developed as part of my Bootstrap studies, following Traversy Media's
+                            tutorial on YouTube. Through this hands-on learning experience, I strengthened my
+                            understanding of Bootstrap's grid system, components,
+                            and responsive design principles. Completing this project significantly enhanced my ability
+                            to create sleek, modern web pages using Bootstrap v5.0, paving the way for more advanced web
+                            development work
+                        </p>
+                        </p>
+
+                        <hr>
+
+                        <div class="text-center">
+                            <button type="button" class="btn btn-secondary border border-white mb-2 mx-2"><a
+                                    href="https://vaibhavpatilviv23.github.io/Front-end-Bootcamp/#"
+                                    target="_blank">Visit
+                                    website</a></button>
+
+                            <button class="btn btn-secondary border border-white mb-2 mx-2" type="button"><a
+                                    target="_blank" href="https://github.com/vaibhavpatilviv23/Front-end-Bootcamp">View
+                                    on
+                                    GitHub</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer class=" px-2 py-3" style="background-color: #6f42c1">
+        <h6><a href="aboutme.html" class="links text-light">About Me</a></h6>
+        <h6><a href="contact.html" class="links text-light">Contact Info</a></h6>
+        <h6><a href="#top" class="links text-light">Back to top</a></h6>
+    </footer>
+
+    <!--Bootstrap JS CDN link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

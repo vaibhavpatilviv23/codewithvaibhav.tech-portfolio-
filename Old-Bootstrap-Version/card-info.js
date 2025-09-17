@@ -1,7 +1,6 @@
 /* This is the JS Script which serves project titles, desciptions to Portfolio Project cards */
 
 /* Data for Colored markers using CSS project */
-
 document.getElementById("CMUCSSTTL").innerHTML = "Colored markers using CSS";
 document.getElementById("CMUCSSDESC").innerHTML = "Colored Markers is a simple yet effective demonstration of CSS styling techniques. Built during my learning journey with FreeCodeCamp, this project showcases how to create visually distinct markers using only HTML and CSS. It emphasizes design precision layering effects, and color harmony—perfect for understanding how styling can shape use experience.";
 
